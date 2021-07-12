@@ -31,6 +31,3 @@ def play_game():
         else:
             re_run = False
             print("Game Ends...!!")
-
-
-play_game()
