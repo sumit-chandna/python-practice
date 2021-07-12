@@ -5,12 +5,16 @@
 from app import *
 from calculator import *
 from class_example import *
+from common_util import *
 from condition_example import *
 from dictonary_example import *
 from file_manipulation_example import *
 from function_example import *
+from guess_one import *
 from list_example import *
 from loops_example import *
+from palindrome import *
+from rock_paper_scissors import *
 from string_format_example import *
 from try_except_example import *
 from tuple_example import *
@@ -57,4 +61,12 @@ if __name__ == '__main__':
     class_demo()
     print("========String format Example========")
     string_format_demo()
+    print("======== rock paper scissor Example========")
+    play_game()
+    print("========generate Password Example========")
+    print(gen_password(8))
+    print("========guessing Example========")
+    guessing_game()
+    print("========palindrome Example========")
+    palindrome()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
