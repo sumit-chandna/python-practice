@@ -1,0 +1,6 @@
+Jim - Salesman
+Dwight - Sales
+Pam - Receptionist
+Micheal - Manager
+Oscar - Accountant
+Ryan - Temp
