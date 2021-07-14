@@ -3,6 +3,11 @@ from common_util import *
 
 def play_tic_tac_toe():
     print('Welcome to Tic Tac Toe!')
+    print(' 7 | 8 | 9')
+    print('-----------')
+    print(' 4 | 5 | 6')
+    print('-----------')
+    print(' 1 | 2 | 3')
 
     while True:
         # Reset the board
