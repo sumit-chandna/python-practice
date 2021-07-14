@@ -1,4 +1,5 @@
 import random
+from os import system, name
 
 
 def print_list(list):
@@ -67,3 +68,10 @@ def gen_password(password_len):
     s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
     password = "".join(random.sample(s, password_len))
     return password
+
+
+def clear():
+    if name == 'nt':
+        _ = system('cls')
+    else:
+        _ = system('clear')

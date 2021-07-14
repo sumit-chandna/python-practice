@@ -113,7 +113,7 @@ if __name__ == '__main__':
         palindrome()
     elif choice == 0 or choice == 20:
         print("========tic tac toe========")
-        play_board_game()
+        play_tic_tac_toe()
     else:
         print("Exiting...!!")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
