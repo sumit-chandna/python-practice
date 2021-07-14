@@ -1,4 +1,4 @@
-from common_util import *
+import random
 
 
 def play_tic_tac_toe():
@@ -98,7 +98,7 @@ def full_board_check(board):
 
 def player_choice(turn, board):
     position = 0
-    while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9] or not space_check(board, position):
+    while position not in range(1, 10) or not space_check(board, position):
         position = int(input(f'{turn}, Choose your next position: (1-9) '))
 
     return position
