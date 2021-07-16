@@ -3,11 +3,7 @@ import random
 
 def play_tic_tac_toe():
     print('Welcome to Tic Tac Toe!')
-    print(' 7 | 8 | 9')
-    print('-----------')
-    print(' 4 | 5 | 6')
-    print('-----------')
-    print(' 1 | 2 | 3')
+    display_board(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
 
     while True:
         # Reset the board
