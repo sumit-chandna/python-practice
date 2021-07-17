@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from app import *
 from calculator import *
 from class_example import *
@@ -21,36 +17,28 @@ from tic_tac_toe_game import *
 from try_except_example import *
 from tuple_example import *
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-    print("all                      : 0")
-    print("print format             : 1")
-    print("Calculator               : 2")
-    print("sum_of_numbers           : 3")
-    print("subtraction_of_numbers   : 4")
-    print("mad_libs                 : 5")
-    print("List                     : 6")
-    print("Tuple                    : 7")
-    print("Function                 : 8")
-    print("Condition                : 9")
-    print("Dictionary               : 10")
-    print("Loop                     : 11")
-    print("Try Except               : 12")
-    print("read file                : 13")
-    print("Class                    : 14")
-    print("String format            : 15")
-    print(" rock paper scissor      : 16")
-    print("generate Password        : 17")
-    print("guessing                 : 18")
-    print("palindrome               : 19")
-    print("tic tac toe              : 20")
+    print("all example                      : 0")
+    print("print format example             : 1")
+    print("Calculator example               : 2")
+    print("sum_of_numbers example           : 3")
+    print("subtraction_of_numbers example   : 4")
+    print("mad_libs example                 : 5")
+    print("List example                     : 6")
+    print("Tuple example                    : 7")
+    print("Function example                 : 8")
+    print("Condition example                : 9")
+    print("Dictionary example               : 10")
+    print("Loop example                     : 11")
+    print("Try Except example               : 12")
+    print("read file example                : 13")
+    print("Class example                    : 14")
+    print("String format example            : 15")
+    print("rock paper scissor example       : 16")
+    print("generate Password example        : 17")
+    print("guessing example                 : 18")
+    print("palindrome example               : 19")
+    print("tic tac toe game                 : 20")
     choice = int(input("Enter Your choice : "))
     if choice == 0 or choice == 1:
         print_example()
@@ -116,4 +104,3 @@ if __name__ == '__main__':
         play_tic_tac_toe()
     else:
         print("Exiting...!!")
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

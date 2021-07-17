@@ -11,3 +11,6 @@ class Student:
             return "on honor roll"
         else:
             return "not on honor roll"
+
+    def __str__(self):
+        return f"{self.name} : {self.major}"
