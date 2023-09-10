@@ -16,29 +16,56 @@ from string_format_example import *
 from tic_tac_toe_game import *
 from try_except_example import *
 from tuple_example import *
+from enumerate import *
+from inbuild_functions import *
 
+choice_count = 0
 if __name__ == '__main__':
-    print("all example                      : 0")
-    print("print format example             : 1")
-    print("Calculator example               : 2")
-    print("sum_of_numbers example           : 3")
-    print("subtraction_of_numbers example   : 4")
-    print("mad_libs example                 : 5")
-    print("List example                     : 6")
-    print("Tuple example                    : 7")
-    print("Function example                 : 8")
-    print("Condition example                : 9")
-    print("Dictionary example               : 10")
-    print("Loop example                     : 11")
-    print("Try Except example               : 12")
-    print("read file example                : 13")
-    print("Class example                    : 14")
-    print("String format example            : 15")
-    print("rock paper scissor example       : 16")
-    print("generate Password example        : 17")
-    print("guessing example                 : 18")
-    print("palindrome example               : 19")
-    print("tic tac toe game                 : 20")
+    print("all example                      : " + str(choice_count))
+    choice_count += 1
+    print("print format example             : " + str(choice_count))
+    choice_count += 1
+    print("Calculator example               : " + str(choice_count))
+    choice_count += 1
+    print("sum_of_numbers example           : " + str(choice_count))
+    choice_count += 1
+    print("subtraction_of_numbers example   : " + str(choice_count))
+    choice_count += 1
+    print("mad_libs example                 : " + str(choice_count))
+    choice_count += 1
+    print("List example                     : " + str(choice_count))
+    choice_count += 1
+    print("Tuple example                    : " + str(choice_count))
+    choice_count += 1
+    print("Function example                 : " + str(choice_count))
+    choice_count += 1
+    print("Condition example                : " + str(choice_count))
+    choice_count += 1
+    print("Dictionary example               : " + str(choice_count))
+    choice_count += 1
+    print("Loop example                     : " + str(choice_count))
+    choice_count += 1
+    print("Try Except example               : " + str(choice_count))
+    choice_count += 1
+    print("read file example                : " + str(choice_count))
+    choice_count += 1
+    print("Class example                    : " + str(choice_count))
+    choice_count += 1
+    print("String format example            : " + str(choice_count))
+    choice_count += 1
+    print("rock paper scissor example       : " + str(choice_count))
+    choice_count += 1
+    print("generate Password example        : " + str(choice_count))
+    choice_count += 1
+    print("guessing example                 : " + str(choice_count))
+    choice_count += 1
+    print("palindrome example               : " + str(choice_count))
+    choice_count += 1
+    print("tic tac toe game                 : " + str(choice_count))
+    choice_count += 1
+    print("Enumerate Demo                   : " + str(choice_count))
+    choice_count += 1
+    print("inbuilt function Demo            : " + str(choice_count))
     choice = int(input("Enter Your choice : "))
     if choice == 0 or choice == 1:
         print_example()
@@ -54,6 +81,7 @@ if __name__ == '__main__':
     elif choice == 0 or choice == 6:
         print("========List Example========")
         custom_list()
+        custom_list_comprehension()
     elif choice == 0 or choice == 7:
         print("========Tuple Example========")
         custom_tuple()
@@ -102,5 +130,11 @@ if __name__ == '__main__':
     elif choice == 0 or choice == 20:
         print("========tic tac toe========")
         play_tic_tac_toe()
+    elif choice == 0 or choice == 21:
+        print("========Enumerate Demo========")
+        enumerate_demo()
+    elif choice == 0 or choice == 22:
+        print("========Inbuilt functions Demo========")
+        inbuilt_functions_demo()
     else:
         print("Exiting...!!")

@@ -12,4 +12,8 @@ def for_demo():
     print("\n")
     for num in range(10):
         print(num, end="\t")
-    print("\n")
+    coordinates = [(32.446, 53.987), (2.446, 5.987), (44.446, 53.987), (882.446, 53.987)]
+    print(f"\nCoordinates : {coordinates}")
+    for lat, long in coordinates:
+        print(f"latitude : {lat}, longitude : {long}")
+    print("For Loops Completed")
