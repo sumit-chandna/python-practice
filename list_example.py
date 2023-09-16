@@ -13,7 +13,7 @@ def custom_list():
 
 def custom_list_comprehension():
     my_list = [num for num in range(0, 11)]
-    print(f"My List :  {my_list}")
+    print(f"My  List :  {my_list}")
     my_list = [num ** 2 for num in range(0, 11)]
     print(f"My squared list:  {my_list}")
     my_list = [num for num in range(0, 11) if num % 2 == 0]
