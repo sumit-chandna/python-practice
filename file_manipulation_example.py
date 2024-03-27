@@ -1,37 +1,34 @@
 def write_file_demo():
     print("========")
-    file = open("employees.txt", "w")
-    lines = ["Jim - Salesman",
-             "Dwight - Sales",
-             "Pam - Receptionist",
-             "Micheal - Manager",
-             "Oscar - Accountant"]
+    with open("employees.txt", mode="w") as file:
+        lines = ["Jim - Salesman",
+                 "Dwight - Sales",
+                 "Pam - Receptionist",
+                 "Micheal - Manager",
+                 "Oscar - Accountant"]
 
-    print(f"writing {lines} to file")
-    for line in lines:
-        file.write(line + "\n")
-    file.close()
+        print(f"writing {lines} to file")
+        for line in lines:
+            file.write(line + "\n")
     print("========")
 
 
 def append_file_demo():
     print("========")
-    file = open("employees.txt", "a")
-    lines = ["Ryan - Temp"]
-    print(f"Appending {lines} to file")
-    file.writelines(lines)
-    file.close()
+    with open("employees.txt", mode="a") as file:
+        lines = ["Ryan - Temp"]
+        print(f"Appending {lines} to file")
+        file.writelines(lines)
     print("========")
 
 
 def read_file_demo():
-    file = open("employees.txt", "r")
-    print("\nReading \"employees.txt\" file")
-    if file.readable():
-        # print(file.read())
-        # print(file.readline())
-        for line in file.readlines():
-            print(line)
-    else:
-        print("cannot read")
-    file.close()
+    with open("employees.txt", mode="r") as file:
+        print("\nReading \"employees.txt\" file")
+        if file.readable():
+            # print(file.read())
+            # print(file.readline())
+            for line in file.readlines():
+                print(line)
+        else:
+            print("cannot read")

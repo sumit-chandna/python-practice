@@ -13,12 +13,12 @@ def custom_list():
 
 def custom_list_comprehension():
     my_list = [num for num in range(0, 11)]
-    print(f"My  List :  {my_list}")
+    print(f"My  List : [num for num in range(0, 11)]:  {my_list}")
     my_list = [num ** 2 for num in range(0, 11)]
-    print(f"My squared list:  {my_list}")
+    print(f"My squared list :[num ** 2 for num in range(0, 11)]:  {my_list}")
     my_list = [num for num in range(0, 11) if num % 2 == 0]
-    print(f"even list:  {my_list}")
+    print(f"even list : [num for num in range(0, 11) if num % 2 == 0]:  {my_list}")
     celcius = [0, 10, 20, 30]
     fahrenheit = [((9 / 5) * temp + 32) for temp in celcius]
     print(f"celcius:  {celcius}")
-    print(f"fahrenheit:  {fahrenheit}")
+    print(f"fahrenheit : [((9 / 5) * temp + 32) for temp in celcius]:  {fahrenheit}")
