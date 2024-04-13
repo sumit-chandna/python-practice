@@ -68,6 +68,8 @@ if __name__ == '__main__':
         print("========Function Example========")
         say_hi("kumar", 30)
         print(cube(3))
+        print(lesser_of_two_evens(2, 5))
+        print(animal_cracker('level Llama'))
     elif choice == 0 or choice == 9:
         print("========Condition Example========")
         if_else_gender(False, False)
