@@ -16,4 +16,4 @@ def for_demo():
     print(f"\nCoordinates : {coordinates}")
     for lat, long in coordinates:
         print(f"latitude : {lat}, longitude : {long}")
-    print("For Loops Completed")
+    print("---------For Loops Completed---------")

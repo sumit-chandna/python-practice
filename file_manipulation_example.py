@@ -25,7 +25,10 @@ def append_file_demo():
 def read_file_demo():
     with open("employees.txt", mode="r") as file:
         print("\nReading \"employees.txt\" file")
+
         if file.readable():
+            # print("file.seek(0) to move cursor to start of file")
+            # file.seek(0)
             # print(file.read())
             # print(file.readline())
             for line in file.readlines():
