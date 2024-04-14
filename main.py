@@ -19,6 +19,7 @@ from tuple_example import *
 from enumerate import *
 from inbuild_functions import *
 from set_example import *
+from map_example import *
 
 if __name__ == '__main__':
     print("all example                      : 0")
@@ -45,6 +46,7 @@ if __name__ == '__main__':
     print("Enumerate Demo                   : 21")
     print("inbuilt function Demo            : 22")
     print("Set example                    : 23")
+    print("Map example                    : 24")
     choice = int(input("Enter Your choice : "))
     if choice == 0 or choice == 1:
         print_example()
@@ -120,5 +122,9 @@ if __name__ == '__main__':
     elif choice == 0 or choice == 23:
         print("========Set Demo========")
         custom_set()
+    elif choice == 0 or choice == 24:
+        print("========Map Demo========")
+        custom_map()
+        print(custom_filter())
     else:
         print("Exiting...!!")
