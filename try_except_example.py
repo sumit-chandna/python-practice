@@ -9,3 +9,5 @@ def try_except_demo():
         print(f"Divided by Zero : {zde}")
     except:
         print("Generic error")
+    else:
+        print("block executed if no error")
